@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Registration">
+
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginBottom="145dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="SIGNUP"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="185dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_username"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="254dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_email"
+            android:ems="10"
+            android:hint="Email-id"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="322dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_password"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true" /><![CDATA[
+
+        -->
+
+
+
+
+
+
+
+        ]]>
+
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginBottom="289dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_password"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginBottom="221dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_mobile"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="text" />
+
+
+</RelativeLayout>

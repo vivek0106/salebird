@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627304090206",
+    "firebase_url": "https://salebird-7fd3d.firebaseio.com",
+    "project_id": "salebird-7fd3d",
+    "storage_bucket": "salebird-7fd3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627304090206:android:06d44d1099ca10c2d802cf",
+        "android_client_info": {
+          "package_name": "com.example.sale_bird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627304090206-nh3j9382kmncqabe52b1e1nfv12bkv3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sale_bird",
+            "certificate_hash": "bb6cc839fb564ad0a85f8d3f4c0f523e406cdac2"
+          }
+        },
+        {
+          "client_id": "627304090206-2csrt20mdh42lbhhi5hportc7gldcl1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8sPc0mFpHbed8FDp3jQaU_Z4hmsDwGd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627304090206-2csrt20mdh42lbhhi5hportc7gldcl1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

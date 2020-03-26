@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:duration="2000"
+        android:drawable="@mipmap/re_front" />
+    <item
+        android:duration="2000"
+        android:drawable="@mipmap/re_front1" />
+    <item
+        android:duration="2000"
+        android:drawable="@mipmap/side" />
+    <item
+        android:duration="2000"
+        android:drawable="@mipmap/re_back" />
+
+    <item
+        android:duration="2000"
+        android:drawable="@mipmap/re_back1" />
+
+</animation-list>

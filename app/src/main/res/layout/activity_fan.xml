@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="740dp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:title="Phones"
+        app:titleTextColor="#ffffff"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="410dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/realme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/fan" />
+
+                    <TextView
+                        android:layout_width="400dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="5dp"
+                        android:text="Crompton Sale Wind 1200mm Ceiling fan"
+                        android:textColor="#000000"
+                        android:textSize="19dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/rating"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="-5dp"
+                        android:src="@mipmap/rating" />
+
+                    <TextView
+                        android:id="@+id/discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="31dp"
+                        android:background="#B8F87B"
+                        android:layout_marginStart="5dp"
+                        android:text="Extra ₹ 1500 discount"
+                        android:textColor="#2A7A1E "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="410dp"
+                        android:layout_height="35dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="141dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="5dp"
+                            android:text="₹ 15000/-"
+                            android:textColor="#000000"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#B4B6B3 " />
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:id="@+id/Available"
+                        android:layout_width="206dp"
+                        android:layout_height="31dp"
+                        android:text="Available offers"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold"/>
+
+
+                    <TextView
+                        android:id="@+id/percent"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="25dp"
+                        android:drawableLeft="@drawable/ic_label"
+                        android:text=" 5% unlimited CashBack on Salebird Card."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/percent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="2dp"
+                        android:drawableLeft="@drawable/ic_label"
+                        android:text=" Extra 10% off on DebitCard."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <LinearLayout
+                        android:layout_width="410dp"
+                        android:layout_height="86dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:layout_width="122dp"
+                            android:layout_height="50dp"
+                            android:textAlignment="center"
+                            android:background="#C3E6FA "
+                            android:textColor="#000000"
+                            android:text="FREE Delivery by tomorrow"
+                            android:layout_marginStart="5dp" />
+
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:textAlignment="center"
+                            android:layout_width="122dp"
+                            android:layout_height="50dp"
+                            android:background="#C3E6FA "
+                            android:textColor="#000000"
+                            android:text="No cost EMI ₹2,170/month"
+                            android:layout_marginStart="10dp" />
+
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:textAlignment="center"
+                            android:layout_width="122dp"
+                            android:layout_height="50dp"
+                            android:background="#C3E6FA "
+                            android:textColor="#000000"
+                            android:text="Product     Exchange"
+                            android:layout_marginStart="10dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/highlight"
+                android:layout_width="412dp"
+                android:layout_height="234dp"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="29dp"
+                    android:text="Highlights"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:drawableLeft="@mipmap/bullet"
+                    android:text="  Type Ceiling Fan "
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="60dp"
+                    android:drawableLeft="@mipmap/bullet"
+                    android:text="  Motor Speed: 380 RPM"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="90dp"
+                    android:drawableLeft="@mipmap/bullet"
+                    android:text="  Power Consumption: 80W "
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="120dp"
+                    android:drawableLeft="@mipmap/bullet"
+                    android:text="  Material:Steel"
+                    android:textAlignment="center"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/buy"
+                    android:layout_width="412dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="-5dp"
+                    android:layout_marginTop="145dp"
+                    android:src="@mipmap/button" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/high"
+                android:layout_width="412dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="-20dp"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="150dp"
+                    android:background="#000000"
+                    android:src="@mipmap/sale__bird2" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="179dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="20dp"
+                        android:textColor="#5A6F7B"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="100dp"
+                        android:drawableLeft="@mipmap/bullet"
+                        android:text="  6 Quality Checks"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="100dp"
+                        android:textColor="#5A6F7B"
+                        android:drawableLeft="@mipmap/bullet"
+                        android:text="  Genuine Products"
+                        android:textSize="12dp" />
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="100dp"
+                        android:textColor="#5A6F7B"
+                        android:drawableLeft="@mipmap/bullet"
+                        android:text="  Faster Delivery"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
